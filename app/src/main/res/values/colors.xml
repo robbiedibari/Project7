@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name ="Red">#FF1111</color>
+    <color name ="blue">#1111FF</color>
+    <color name ="yellow">#FFEE33</color>
+    <color name="background">#F7F7F7</color>
+    <color name ="text"> #333333</color>
+    <color name="card_background">#FFFAE0</color>
+
+    <color name="dark_red">#8B0000</color> <!-- Darkened version of red -->
+    <color name="dark_blue">#00008B</color> <!-- Darkened version of blue -->
+    <color name="dark_yellow">#FFD700</color> <!-- A more subdued yellow for dark mode -->
+
+    <!-- Background and text colors for dark mode -->
+    <color name="dark_background">#121212</color> <!-- Very dark gray for main backgrounds -->
+    <color name="dark_text">#E0E0E0</color> <!-- Light gray for primary text on dark backgrounds -->
+    <color name="card_dark_background">#1E1E1E</color>
+
+
+
+
+</resources>

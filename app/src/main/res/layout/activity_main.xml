@@ -1,0 +1,49 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"> <!-- Transparent background -->
+
+    <!-- Pokémon Banner ImageView -->
+
+    <!-- SearchView -->
+
+    <ImageView
+        android:id="@+id/pokemonBannerImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="118dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="60dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/pokemonbanner" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        style="@style/CustomSearchView"
+        android:theme="@style/CustomSearchView"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pokemonBannerImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_searchview"
+        android:queryHint="Search Pokémon"
+        android:textColor="#FFF"
+        android:textColorHint="#888"
+        android:textSize="18sp" />
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchView"/>
+
+</RelativeLayout>
